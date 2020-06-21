@@ -1,0 +1,32 @@
+<!-- Created by rishabh mishra-->
+
+<!DOCTYPE html> 
+    <html> 
+        <head> 
+          <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+        </head> 
+    <body>
+    
+   <center> <h1 id="output" ><b>00:00:00:00</b></h1> </center>
+    
+   <center>
+        <div id="controls" >
+    
+         <button id= "begin" onclick="begin()" > <div id="start">START</div></button>     
+     
+     <button onclick="reset()" id="reset" >RESET</button> 
+     </div>
+   </center>
+  <center>
+ <button id="lap" onclick="noteLap()">Lap</button>      
+  </center>
+     
+
+</audio>   
+<script src="app.js"></script>        
+    </body>
+    
+    </html>
